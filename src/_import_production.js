@@ -1,1 +1,1 @@
-module.exports = file => () => import('./view/' + file + '.jsx')
+module.exports = file => require('./view/' + file + '.jsx')
