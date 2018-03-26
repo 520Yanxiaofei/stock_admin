@@ -108,7 +108,13 @@ const Menulist = React.createClass({
           <div className="headerLogo">
                 <h2>炒股管理系统</h2>
                 <h4>武汉优网安全技术</h4>
-                <span>L3&nbsp;Beta</span>
+                
+                <div>
+                <div className="userCenters">
+                      欢迎您，admin<br/>
+                      <span>点此退出</span>
+                </div> 
+                </div>
           </div>
           :
           <div className={styles.headerLogotext}>

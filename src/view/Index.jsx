@@ -12,7 +12,7 @@ const IndexMain = React.createClass({
   getInitialState: function() {
     return {
       collapse: sessionStorage.getItem('MenuStatus') === 'true',
-      menuThem: styles.themColor1
+      menuThem: styles.themColor3
     }
   },
   componentDidMount: function() {
